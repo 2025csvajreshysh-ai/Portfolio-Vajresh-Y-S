@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container d-flex flex-row">
+                <a class="navbar-brand navbar-logo ml-1" href="#">
+                    VAJRESH <span class="navbar-logo">Y S</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" id="link" href="#home">Home</a>
+                        <a class="nav-link" id="link" href="#aboutme">About me</a>
+                        <a class="nav-link" id="link" href="#skills">Skills</a>
+                        <a class="nav-link" id="link" href="#project">Projects</a>
+                        <!-- <a class="nav-link" id="link" href="#">Resume</a> -->
+                        <a class="nav-link" id="link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home-bg pt-5 pb-5">
+                <div class="container d-flex flex-column justify-content-center">
+                    <div class="row">
+                        <div class="col-12 col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                            <div class="part1 text-white">
+                                <h4>Hello, I'm</h4>
+                                <h1>VAJRESH Y S</h1>
+                                <h5 class="cs">
+                                    Frontend Developer | <span>CS Student</span> | Creative Thinker
+                                </h5>
+                                <p>
+                                    I build modern websites and innovative projects while exploring
+                                    web development, programming, and emerging technologies.
+                                </p>
+                                <div class="two-button" style="display: flex">
+                                    <button class="color-btn">View Project</button>
+                                    <button class="outline-btn">Downlode Rusume</button>
+                                </div>
+                                <div class="social mt-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-github" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-lg-none order-1 order-lg-2">
+                            <div class="orbit">
+                                <img src="/img/logo.jpg" class="coder-logo" />
+                                <img src="/img/vs.png" class="vs-logo" />
+                                <img src="/img/py.png" class="py-logo" />
+                            </div>
+                            <div>
+                                <img src="/img/pro.png" class="photo" />
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-5 d-none d-lg-flex order-lg-2 justify-content-center align-items-center home-image-column">
+                            <div class="orbit">
+                                <img src="/img/logo.jpg" class="coder-logo" />
+                                <img src="/img/vs.png" class="vs-logo" />
+                                <img src="/img/py.png" class="py-logo" />
+                            </div>
+                            <div>
+                                <img src="/img/pro.png" class="photo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aboutme">
+            <div class="about-bg pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="cir"></div> -->
+                        <div class="col-12 d-flex flex-row pb-4">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h1>About Me</h1>
+                            </div>
+                        </div>
+                        <div class="col-4 text-white">
+                            <h6 class="about-text">
+                                Hello! I'm a Computer Science student who loves building modern
+                                web applications and learning new technologies. I enjoy solving
+                                real-world problems through clean, efficient code and
+                                continuously challenge myself with projects that help me grow as
+                                a developer.
+                            </h6>
+                            <p class="mt-5 about-goal">
+                                <span>My Goal:</span> to crack a job at multinational company, a
+                                high-paying job that allows me to leverage my skills and grow
+                                professionally.
+                            </p>
+                        </div>
+                        <div class=" about-card d-flex flex-row col-8 text-white">
+                            <div class="card-1 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-book" viewBox="0 0 16 16">
+                                    <path
+                                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                                </svg>
+                                <h5>School</h5>
+                                <p>Completed my schooling with focus on Science and Mathematics.</p>
+                                <h6>2023-2025</h6>
+                            </div>
+                            <div class="card-2 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-mortarboard" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917zM8 8.46 1.758 5.965 8 3.052l6.242 2.913z" />
+                                    <path
+                                        d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46z" />
+                                </svg>
+                                <h5>College</h5>
+                                <p>Pursuing B.E. in Computer Science</p>
+                                <h6>2025-2029</h6>
+                            </div>
+                            <div class="card-3 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532" />
+                                    <path
+                                        d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z" />
+                                    <path
+                                        d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
+                                </svg>
+                                <h5>Future</h5>
+                                <div class="d-flex flex-column justify-content-space-between">
+                                    <p>Software Engineer / Full-Stack Developer</p>
+                                    <h6>2029+</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="skills-bg pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-row pb-4 mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-code-slash" viewBox="0 0 16 16">
+                                <path
+                                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                            </svg>
+                            <h2 class="text-white">Skills</h2>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="skills-text">Programming</h3>
+                            <div class="skills-per">
+                                <span>C</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-c">
+
+                                </div>
+                            </div>
+                            <div class="skills-per">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-py">
+
+                                </div>
+                            </div>
+                            <div class="skills-per">
+                                <span>JAVA</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-java">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 bor">
+                            <h3 class="skills-text">Web Development</h3>
+                            <div class="skills-per">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-html">
+
+                                </div>
+                            </div>
+                            <div class="skills-per">
+                                <span>CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-css">
+
+                                </div>
+                            </div>
+                            <div class="skills-per">
+                                <span>JAVASCRIPT</span>
+                                <span>5%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-js">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="skills-text">Others</h3>
+                            <div class="skills-per">
+                                <span>Problem Solving</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-prob">
+
+                                </div>
+                            </div>
+                            <div class="skills-per">
+                                <span>Creativity</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="box1">
+                                <div class="for-creat">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="project">
+            <div class="about-bg pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-folder2" viewBox="0 0 16 16">
+                                <path
+                                    d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v7a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 1 12.5zM2.5 3a.5.5 0 0 0-.5.5V6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3zM14 7H2v5.5a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5z" />
+                            </svg>
+                            <h2 class="mb-5">Project</h2>
+                        </div>
+                        <div class="col-4 pro-cardss">
+                            <div>
+                                <p class="pro-cards text-center">NOTHING</p>
+                            </div>
+                            <div class="pro-des d-flex flex-row p-3">
+                                <div>
+                                    <h5 class="m-0">Pod </h5>
+                                    <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    <a href="">view -></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 pro-cardss">
+                            <div>
+                                <p class="pro-cards text-center">NOTHING</p>
+                            </div>
+                            <div class="pro-des d-flex flex-row p-3">
+                                <div>
+                                    <h5 class="m-0">Pod </h5>
+                                    <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    <a href="">view -></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 pro-cardss">
+                            <div>
+                                <p class="pro-cards text-center">NOTHING</p>
+                            </div>
+                            <div class="pro-des d-flex flex-row p-3">
+                                <div>
+                                    <h5 class="m-0">Pod </h5>
+                                    <p class="m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                    <a href="">view -></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="skills-bg pt-5 pb-5 text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex flex-row pb-4">
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h1>Contact</h1>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex flex-row justify-content-center">
+                            <form class="cont-in">
+                                <input type="text" id="name" placeholder="Enter your frist name" class="in"
+                                    required><br><br>
+                                <input type="text" id="name" placeholder="Enter last your" class="in" required><br><br>
+                                <input type="email" id="email" placeholder="Enter Email" class="in" required><br><br>
+                                <textarea rows="5" placeholder="Write someting" required></textarea><br>
+                                <input type="submit" class="color-btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-4">
+                    <div>
+                        <h6>VAJRESH Y S</h6>
+                        <p class="cs">
+                            Frontend Developer | <span>CS Student</span> | Creative Thinker
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex">
+                        <a class="nav-link" id="footer-link" href="#home">Home</a>
+                        <a class="nav-link" id="footer-link" href="#aboutme">About</a>
+                        <a class="nav-link" id="footer-link" href="#skills">Skills</a>
+                        <a class="nav-link" id="footer-link" href="#project">Projects</a>
+                        <!-- <a class="nav-link" id="footer-link" href="#">Resume</a> -->
+                        <a class="nav-link" id="footer-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
